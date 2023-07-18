@@ -52,8 +52,21 @@ table {
   border-spacing: 0;
 }
 
-h1 {
-  color: blue;
+html {
+  font-size: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+main {
+  padding: 1rem 3rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  border-bottom: 2px solid black;
+  font-size: 3rem;
 }
 
 /*# sourceMappingURL=main.css.map */

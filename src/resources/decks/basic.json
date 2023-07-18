@@ -1,0 +1,19 @@
+{
+  "name": "Basic Deck",
+  "characters": [
+    "Hero",
+    "Villain",
+    "Sidekick",
+    "Minion"
+  ],
+  "locations": [
+    "Downtown",
+    "Office",
+    "Moon"
+  ],
+  "items": [
+    "Staff",
+    "Gemstone",
+    "Crate"
+  ]
+}
