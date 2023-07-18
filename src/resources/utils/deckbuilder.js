@@ -1,12 +1,21 @@
-const decks = require('../decks/basic.json');
-let characterDeck = new Array();
-const deck = {};
+const packs = {
+  "basicPack": require('../packs/basic.json'),
+  "fantasyPack": require('../packs/fantasy.json'),
+}
 
 const deckBuilder = () => {
-  deck.characters = decks.characters;
-  deck.locations = decks.locations;
-  deck.items = decks.items;
+  const deck = {
+    "characters": [],
+    "locations": [],
+    "items": []
+  };
+  Object.values(packs).forEach(pack => {
+    Object.keys(pack).forEach(list => {
+      if(list !== "name")
+        deck[list] = pack[list].concat(deck[list]);
+    })
+  })
   return deck;
 }
 
-module.exports = {deckBuilder}
+module.exports = {deckBuilder, packs}

@@ -1,0 +1,27 @@
+{
+  "name": "Fantasy Pack",
+  "characters": [
+    "Fighter",
+    "Rogue",
+    "Magician",
+    "Ranger",
+    "Cleric",
+    "Knight",
+    "Swashbuckler",
+    "Barbarian",
+    "Warrior",
+    "Thief",
+    "Human",
+    "Elf",
+    "Dwarf",
+    "Orc",
+    "Halfling",
+    "Gnome"
+  ],
+  "locations": [
+
+  ],
+  "items": [
+
+  ]
+}
