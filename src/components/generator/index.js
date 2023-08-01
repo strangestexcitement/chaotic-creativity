@@ -1,12 +1,13 @@
-function Generator(props) {
+import React, { useEffect, useState } from 'react';
 
-  const array = props.array;
+const Generator = (props) => {
 
-  let selectedItem = array[Math.floor(Math.random() * array.length)];
+  useEffect(() => {
+  }, []);
 
   return (
     <div className="">
-        <h2>{selectedItem}</h2>
+        <h2>{props.selectedItem}</h2>
     </div>
   );
 }
